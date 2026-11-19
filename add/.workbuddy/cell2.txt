@@ -1,1 +1,0 @@
-所使用的工具软件及环境：Andriod Studio，JDK，第三方模拟器，Tomcat
