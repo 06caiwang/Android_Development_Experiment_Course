@@ -1,0 +1,470 @@
+{
+ "file_id": "C:/Users/zhangyuheng/Desktop/实验报告2.docx",
+ "idx": 2760,
+ "blocks": [
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "text": "（1）游戏开始界面",
+      "text_format": {
+       "font_family": "黑体",
+       "font_size": 12
+      },
+      "paragraph_property": {
+       "jc": "both",
+       "line_spacing": 1.3,
+       "line_spacing_rule": 1,
+       "spacing_before": 0,
+       "spacing_after": 0
+      }
+     }
+    },
+    {
+     "tool": "doc_modify_paragraph",
+     "args": {
+      "first_line_indent_chars": 2
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "text": "运行程序后首先进入开始界面：深色渐变背景上居中显示游戏图标、“坦克大战”标题和副标题，底部是橙色的“开始游戏”按钮，按钮上方还有一行灰色提示“开始前需阅读并同意《用户服务协议》”，提前告知用户接下来的流程。",
+      "text_format": {
+       "font_family": "宋体",
+       "font_size": 12
+      },
+      "paragraph_property": {
+       "jc": "both",
+       "line_spacing": 1.3,
+       "line_spacing_rule": 1,
+       "spacing_before": 0,
+       "spacing_after": 0
+      }
+     }
+    },
+    {
+     "tool": "doc_modify_paragraph",
+     "args": {
+      "first_line_indent_chars": 2
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "runs": [
+       {
+        "type": "image",
+        "image_path": "D:/AndoridShiyan/game/.preview/fig1_splash.png",
+        "w": 225,
+        "h": 462
+       }
+      ],
+      "paragraph_property": {
+       "jc": "center",
+       "spacing_before": 10,
+       "spacing_after": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "text": "红框①：开始游戏按钮与协议提示",
+      "text_format": {
+       "font_family": "宋体",
+       "font_size": 9,
+       "color": "595959"
+      },
+      "paragraph_property": {
+       "jc": "center",
+       "spacing_before": 2,
+       "spacing_after": 10,
+       "line_spacing": 1.0,
+       "line_spacing_rule": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "text": "（2）条款确认界面（未勾选）",
+      "text_format": {
+       "font_family": "黑体",
+       "font_size": 12
+      },
+      "paragraph_property": {
+       "jc": "both",
+       "line_spacing": 1.3,
+       "line_spacing_rule": 1,
+       "spacing_before": 0,
+       "spacing_after": 0
+      }
+     }
+    },
+    {
+     "tool": "doc_modify_paragraph",
+     "args": {
+      "first_line_indent_chars": 2
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "text": "点击“开始游戏”后跳转到条款页。页面中部是可滚动的协议正文，正文最后一条被底部的渐隐遮罩盖住一部分，提示下面还有内容；下方是两个复选框和“请勾选以上两项条款后继续”的提示，“同意并开始”按钮呈灰色，此时点击没有任何响应。",
+      "text_format": {
+       "font_family": "宋体",
+       "font_size": 12
+      },
+      "paragraph_property": {
+       "jc": "both",
+       "line_spacing": 1.3,
+       "line_spacing_rule": 1,
+       "spacing_before": 0,
+       "spacing_after": 0
+      }
+     }
+    },
+    {
+     "tool": "doc_modify_paragraph",
+     "args": {
+      "first_line_indent_chars": 2
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "runs": [
+       {
+        "type": "image",
+        "image_path": "D:/AndoridShiyan/game/.preview/fig2_terms.png",
+        "w": 225,
+        "h": 462
+       }
+      ],
+      "paragraph_property": {
+       "jc": "center",
+       "spacing_before": 10,
+       "spacing_after": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "text": "红框①：两个条款复选框　　红框②：置灰、不可点击的按钮",
+      "text_format": {
+       "font_family": "宋体",
+       "font_size": 9,
+       "color": "595959"
+      },
+      "paragraph_property": {
+       "jc": "center",
+       "spacing_before": 2,
+       "spacing_after": 10,
+       "line_spacing": 1.0,
+       "line_spacing_rule": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "text": "（3）勾选两项后的状态",
+      "text_format": {
+       "font_family": "黑体",
+       "font_size": 12
+      },
+      "paragraph_property": {
+       "jc": "both",
+       "line_spacing": 1.3,
+       "line_spacing_rule": 1,
+       "spacing_before": 0,
+       "spacing_after": 0
+      }
+     }
+    },
+    {
+     "tool": "doc_modify_paragraph",
+     "args": {
+      "first_line_indent_chars": 2
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "text": "依次勾选两个复选框后，按钮立即变成橙色可点击状态，提示文字也变成青色的“条款已确认，可以进入战场”，说明监听器与状态刷新逻辑工作正常。中间还测试了只勾选其中一项的情况，按钮依然保持灰色，说明两个条件是“与”的关系，判断正确。",
+      "text_format": {
+       "font_family": "宋体",
+       "font_size": 12
+      },
+      "paragraph_property": {
+       "jc": "both",
+       "line_spacing": 1.3,
+       "line_spacing_rule": 1,
+       "spacing_before": 0,
+       "spacing_after": 0
+      }
+     }
+    },
+    {
+     "tool": "doc_modify_paragraph",
+     "args": {
+      "first_line_indent_chars": 2
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "runs": [
+       {
+        "type": "image",
+        "image_path": "D:/AndoridShiyan/game/.preview/fig3_terms_ok.png",
+        "w": 225,
+        "h": 462
+       }
+      ],
+      "paragraph_property": {
+       "jc": "center",
+       "spacing_before": 10,
+       "spacing_after": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "text": "红框①：已勾选的两个复选框　　红框②：变为橙色的可点击按钮",
+      "text_format": {
+       "font_family": "宋体",
+       "font_size": 9,
+       "color": "595959"
+      },
+      "paragraph_property": {
+       "jc": "center",
+       "spacing_before": 2,
+       "spacing_after": 10,
+       "line_spacing": 1.0,
+       "line_spacing_rule": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "text": "（4）进入游戏主界面",
+      "text_format": {
+       "font_family": "黑体",
+       "font_size": 12
+      },
+      "paragraph_property": {
+       "jc": "both",
+       "line_spacing": 1.3,
+       "line_spacing_rule": 1,
+       "spacing_before": 0,
+       "spacing_after": 0
+      }
+     }
+    },
+    {
+     "tool": "doc_modify_paragraph",
+     "args": {
+      "first_line_indent_chars": 2
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "text": "点击“同意并开始”按钮后成功跳转到游戏主界面：顶部 HUD 显示关卡 01-1、三条生命和得分 0000，中间是当前关卡的简报与难度选择，底部是“开始战斗”按钮。整个跳转过程没有卡顿，也没有出现空白页或元素重叠。",
+      "text_format": {
+       "font_family": "宋体",
+       "font_size": 12
+      },
+      "paragraph_property": {
+       "jc": "both",
+       "line_spacing": 1.3,
+       "line_spacing_rule": 1,
+       "spacing_before": 0,
+       "spacing_after": 0
+      }
+     }
+    },
+    {
+     "tool": "doc_modify_paragraph",
+     "args": {
+      "first_line_indent_chars": 2
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "runs": [
+       {
+        "type": "image",
+        "image_path": "D:/AndoridShiyan/game/.preview/fig4_game.png",
+        "w": 225,
+        "h": 462
+       }
+      ],
+      "paragraph_property": {
+       "jc": "center",
+       "spacing_before": 10,
+       "spacing_after": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "text": "红框①：顶部 HUD　　红框②：开始战斗按钮",
+      "text_format": {
+       "font_family": "宋体",
+       "font_size": 9,
+       "color": "595959"
+      },
+      "paragraph_property": {
+       "jc": "center",
+       "spacing_before": 2,
+       "spacing_after": 10,
+       "line_spacing": 1.0,
+       "line_spacing_rule": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "text": "（5）结果分析",
+      "text_format": {
+       "font_family": "黑体",
+       "font_size": 12
+      },
+      "paragraph_property": {
+       "jc": "both",
+       "line_spacing": 1.3,
+       "line_spacing_rule": 1,
+       "spacing_before": 0,
+       "spacing_after": 0
+      }
+     }
+    },
+    {
+     "tool": "doc_modify_paragraph",
+     "args": {
+      "first_line_indent_chars": 2
+     }
+    }
+   ]
+  },
+  {
+   "block": "paragraph",
+   "calls": [
+    {
+     "tool": "doc_insert_paragraph_with_text",
+     "args": {
+      "text": "以上结果与预期一致：条款未全部勾选时无法进入游戏，勾选后按钮状态与提示文字同步变化，点击后正确跳转，按返回键可正常回到开始界面。另外在 1080×2220 与 1080×1800 两种屏幕高度下分别测试，协议卡片会自动伸缩，勾选区与按钮区始终完整显示，没有出现被挤出屏幕的情况。",
+      "text_format": {
+       "font_family": "宋体",
+       "font_size": 12
+      },
+      "paragraph_property": {
+       "jc": "both",
+       "line_spacing": 1.3,
+       "line_spacing_rule": 1,
+       "spacing_before": 0,
+       "spacing_after": 0
+      }
+     }
+    },
+    {
+     "tool": "doc_modify_paragraph",
+     "args": {
+      "first_line_indent_chars": 2
+     }
+    }
+   ]
+  }
+ ]
+}

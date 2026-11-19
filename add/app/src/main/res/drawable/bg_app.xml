@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 页面整体背景：自上而下由近乎纯白渐变到淡紫 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="270"
+        android:startColor="@color/bg_top"
+        android:endColor="@color/bg_bottom"
+        android:type="linear" />
+</shape>

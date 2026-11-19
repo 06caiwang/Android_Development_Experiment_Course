@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 协议正文底部的渐隐遮罩，提示“下面还有内容” -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="90"
+        android:endColor="#00101A2B"
+        android:startColor="#F5101A2B" />
+</shape>

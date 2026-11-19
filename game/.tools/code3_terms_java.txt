@@ -1,0 +1,36 @@
+public class TermsActivity extends AppCompatActivity {
+
+    private MaterialCheckBox cbAgree, cbAge;   // 两个条款复选框
+    private MaterialButton btnAgree;           // 同意并开始
+    private TextView tvHint;                   // 状态提示文字
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_terms);
+        cbAgree = findViewById(R.id.cbAgree);
+        cbAge = findViewById(R.id.cbAge);
+        btnAgree = findViewById(R.id.btnAgree);
+        tvHint = findViewById(R.id.tvHint);
+
+        // 两个复选框共用一个监听器，任一状态变化都刷新按钮
+        CompoundButton.OnCheckedChangeListener l = (v, checked) -> refreshConfirmState();
+        cbAgree.setOnCheckedChangeListener(l);
+        cbAge.setOnCheckedChangeListener(l);
+
+        // 只有按钮可用时才会走到这里，进入游戏主界面
+        btnAgree.setOnClickListener(v -> {
+            startActivity(new Intent(this, GameActivity.class));
+            finish();
+        });
+        refreshConfirmState();
+    }
+
+    /** 两项都勾选后，“同意并开始”按钮才可点击 */
+    private void refreshConfirmState() {
+        boolean confirmed = cbAgree.isChecked() && cbAge.isChecked();
+        btnAgree.setEnabled(confirmed);
+        tvHint.setText(confirmed ? R.string.terms_hint_ready
+                                 : R.string.terms_hint_wait);
+    }
+}

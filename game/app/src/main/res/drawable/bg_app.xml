@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 全局背景：深空蓝黑渐变 + 顶部橙色光晕 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:centerColor="#091120"
+                android:endColor="#04070D"
+                android:startColor="#0C1524"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:centerX="0.5"
+                android:centerY="0.3"
+                android:endColor="#00FFB020"
+                android:gradientRadius="230dp"
+                android:startColor="#33FFB020"
+                android:type="radial" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:centerX="0.5"
+                android:centerY="1.0"
+                android:endColor="#00000000"
+                android:gradientRadius="320dp"
+                android:startColor="#1A38E1FF"
+                android:type="radial" />
+        </shape>
+    </item>
+</layer-list>

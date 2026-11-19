@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- 背景：整体提亮，保留深色但更通透 -->
+    <color name="bg_deep">#FF1A1030</color>
+    <color name="bg_deep_2">#FF2B1B4D</color>
+
+    <!-- 玻璃卡片：深色玻璃，浅色文字才有对比 -->
+    <color name="glass_fill">#5C150E2B</color>
+    <color name="glass_fill_strong">#70150E2B</color>
+    <color name="glass_stroke">#3DFFFFFF</color>
+    <color name="glass_stroke_strong">#5CFFFFFF</color>
+
+    <!-- 主色：提饱和，更鲜亮 -->
+    <color name="accent">#FFB79CFF</color>
+    <color name="accent_deep">#FF8B5CF6</color>
+    <color name="pink">#FFFF7AC6</color>
+    <color name="blue">#FF6FA8FF</color>
+    <color name="qq_blue">#FF12B7F5</color>
+
+    <!-- 文字 -->
+    <color name="text_primary">#FFF8F5FF</color>
+    <color name="text_secondary">#FFC6BCE2</color>
+    <color name="text_tertiary">#FF8F84AC</color>
+
+    <!-- 语义色 -->
+    <color name="error">#FFFF8A8A</color>
+    <color name="success">#FF5BE39A</color>
+    <color name="warning">#FFFFC85C</color>
+
+    <color name="btn_disabled">#FF2A2044</color>
+
+    <!-- 小狗配色 -->
+    <color name="dog_body">#FFFFF0DC</color>
+    <color name="dog_paw">#FFF7E2C8</color>
+    <color name="dog_ear">#FFE0A87A</color>
+    <color name="dog_dark">#FF3A2A52</color>
+</resources>

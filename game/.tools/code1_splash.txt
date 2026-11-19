@@ -1,0 +1,36 @@
+<!-- 开始界面：FrameLayout 铺背景 + 竖向 LinearLayout 排内容 -->
+<FrameLayout ... android:background="@drawable/bg_app">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal" ...>
+
+        <!-- 上部留白：weight=1，把 Logo 和标题顶到视觉中心 -->
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <FrameLayout
+            android:layout_width="124dp"
+            android:layout_height="124dp"
+            android:background="@drawable/bg_logo">
+            <ImageView ... android:src="@drawable/ic_tank" />
+        </FrameLayout>
+
+        <TextView ... android:text="@string/splash_title"
+            android:textSize="38sp" android:textStyle="bold" />
+
+        <!-- 下部留白：weight=1，把按钮压到屏幕底部 -->
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/splash_start" />
+    </LinearLayout>
+</FrameLayout>

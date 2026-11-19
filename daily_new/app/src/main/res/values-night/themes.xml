@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 夜间模式同样保持浅色，保证界面与参考图一致 -->
+    <style name="Base.Theme.Daily_new" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_red</item>
+        <item name="colorSecondary">@color/brand_red</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+</resources>

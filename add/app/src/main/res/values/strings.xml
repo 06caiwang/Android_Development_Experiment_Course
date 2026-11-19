@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">整数加法</string>
+
+    <string name="title_add">整数加法</string>
+    <string name="subtitle_add">输入两个整数，立刻得到它们的和</string>
+    <string name="label_result">计算结果</string>
+    <string name="label_first">第一个整数</string>
+    <string name="label_second">第二个整数</string>
+    <string name="action_calculate">计算求和</string>
+    <string name="action_clear">清空</string>
+    <string name="expression_idle">等待输入…</string>
+    <string name="result_idle">0</string>
+    <string name="footer_hint">支持负数与零 · 长按结果可复制</string>
+
+    <string name="toast_invalid">请输入合法的整数</string>
+    <string name="toast_overflow">结果超出 long 的取值范围</string>
+    <string name="toast_copied">结果已复制到剪贴板</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- 品牌色：仿今日头条的红色 -->
+    <color name="brand_red">#E63A32</color>
+    <color name="brand_red_dark">#CC2E27</color>
+
+    <!-- 文字 -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_regular">#333333</color>
+    <color name="text_secondary">#9A9A9A</color>
+    <color name="text_hint">#B0B0B0</color>
+
+    <!-- 背景与分割线 -->
+    <color name="page_bg">#F5F6F7</color>
+    <color name="search_bg">#F4F5F7</color>
+    <color name="input_bg">#F5F6F8</color>
+    <color name="divider">#EFEFEF</color>
+    <color name="play_badge">#4A4A4A</color>
+</resources>

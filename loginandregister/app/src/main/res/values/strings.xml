@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">loginandregister</string>
+
+    <!-- 登录页 -->
+    <string name="login_title">欢迎回来</string>
+    <string name="login_subtitle">选择一种方式，继续你的旅程</string>
+    <string name="tab_phone">手机号</string>
+    <string name="tab_email">邮箱</string>
+    <string name="tab_qq">QQ</string>
+    <string name="hint_phone">手机号</string>
+    <string name="hint_email">邮箱</string>
+    <string name="hint_password">密码</string>
+    <string name="remember_login">记住登录状态</string>
+    <string name="forgot_password">忘记密码</string>
+    <string name="action_login">登 录</string>
+    <string name="no_account">还没有账号？</string>
+    <string name="action_register">立即注册</string>
+
+    <!-- QQ 授权 -->
+    <string name="qq_login_title">QQ 快捷登录</string>
+    <string name="qq_login_desc">授权后将自动创建或绑定已有账号</string>
+    <string name="qq_login_note">本地模拟授权 · 不会跳转真实 QQ</string>
+    <string name="action_qq_auth">授权并登录</string>
+    <string name="qq_dialog_title">模拟授权确认</string>
+    <string name="qq_dialog_message">即将以 QQ 身份登录。这是本地模拟的授权流程，不会向任何服务器发送数据。</string>
+    <string name="action_agree">同意并登录</string>
+    <string name="action_cancel">取消</string>
+
+    <!-- 注册页 -->
+    <string name="register_title">创建账号</string>
+    <string name="register_subtitle">只需 30 秒，即可开始</string>
+    <string name="hint_code">验证码</string>
+    <string name="action_send_code">获取验证码</string>
+    <string name="hint_password_confirm">确认密码</string>
+    <string name="strength_weak">强度：弱</string>
+    <string name="strength_mid">强度：中</string>
+    <string name="strength_strong">强度：强</string>
+    <string name="agree_prefix">我已阅读并同意</string>
+    <string name="agree_user">用户协议</string>
+    <string name="agree_and">与</string>
+    <string name="agree_privacy">隐私政策</string>
+    <string name="action_do_register">注 册</string>
+    <string name="have_account">已有账号？</string>
+    <string name="action_go_login">去登录</string>
+    <string name="register_success">注册成功</string>
+    <string name="register_success_desc">账号已创建，即将返回登录</string>
+
+    <!-- 主页 -->
+    <string name="main_title">我的</string>
+    <string name="main_subtitle">账户信息</string>
+    <string name="label_created">注册时间</string>
+    <string name="label_last_login">最近登录</string>
+    <string name="label_account_type">账号类型</string>
+    <string name="type_phone">手机号用户</string>
+    <string name="type_email">邮箱用户</string>
+    <string name="type_qq">QQ 用户</string>
+    <string name="action_logout">退出登录</string>
+    <string name="label_security">账户安全</string>
+    <string name="security_pwd">密码已加密存储（SHA-256 + 随机盐）</string>
+    <string name="security_local">数据仅保存在本机 SQLite</string>
+
+    <!-- 通用 -->
+    <string name="action_back">返回</string>
+    <string name="action_confirm">确定</string>
+    <string name="tip_code_sent">验证码已生成：%1$s（本地模拟）</string>
+    <string name="tip_code_first">请先获取验证码</string>
+    <string name="tip_code_wrong">验证码不正确</string>
+    <string name="tip_agree_first">请先阅读并同意用户协议</string>
+    <string name="tip_forgot_title">重置密码</string>
+    <string name="tip_forgot_desc">请输入注册时使用的手机号或邮箱</string>
+    <string name="hint_new_password">新密码</string>
+    <string name="tip_reset_ok">密码已重置，请重新登录</string>
+</resources>

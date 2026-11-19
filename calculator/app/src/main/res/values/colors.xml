@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- 设计令牌：浅灰底 + 白胶囊 + 橙色强调 -->
+    <color name="bg_page">#F4F5F7</color>
+    <color name="key_bg">#FFFFFFFF</color>
+    <color name="text_primary">#1C1C1E</color>
+    <color name="text_secondary">#9AA0A6</color>
+    <color name="text_error">#E5484D</color>
+
+    <color name="accent">#FF8000</color>
+    <color name="accent_gradient_start">#FFA227</color>
+    <color name="accent_gradient_end">#FF7A00</color>
+
+    <color name="ripple_key">#14000000</color>
+    <color name="ripple_accent">#40FFFFFF</color>
+</resources>

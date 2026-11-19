@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">坦克大战</string>
+
+    <!-- ============ 开始界面 ============ -->
+    <string name="splash_title">坦克大战</string>
+    <string name="splash_subtitle">TANK  BATTLE</string>
+    <string name="splash_tagline">钢铁洪流 · 守护最后的阵地</string>
+    <string name="splash_start">开始游戏</string>
+    <string name="splash_notice">开始前需阅读并同意《用户服务协议》</string>
+    <string name="splash_about">关于我们</string>
+    <string name="splash_exit">退出游戏</string>
+    <string name="splash_version">v1.0.0 · 单机演示版</string>
+
+    <!-- ============ 条款界面 ============ -->
+    <string name="terms_title">游戏用户服务协议</string>
+    <string name="terms_card_title">《坦克大战》用户服务协议</string>
+    <string name="terms_version">v2.4</string>
+    <string name="terms_read_tip">请向下滚动阅读完整条款</string>
+
+    <!-- 注意：Android 字符串资源会把源码中的换行压缩成空格，段落必须用 \n 显式换行 -->
+    <string name="terms_content">尊敬的用户，欢迎使用《坦克大战》。在进入战场之前，请您仔细阅读并充分理解以下全部条款。您点击“同意并开始”按钮，即视为您已阅读、理解并接受本协议的全部内容。\n\n第一条  本游戏仅供个人娱乐使用，禁止任何形式的商业运营、出租、转售、二次分发或用于非法用途。\n\n第二条  未满 12 周岁的用户不得进入本游戏。已满 12 周岁但未满 18 周岁的未成年人，应在监护人的同意与陪同下进行游戏，并合理安排游戏时间，避免沉迷。\n\n第三条  用户应通过官方渠道获取游戏安装包，不得使用外挂、加速器、脚本、修改器、模拟器多开等第三方工具破坏游戏公平性。\n\n第四条  禁止在游戏内发布、传播含有暴力、血腥、色情、赌博、诈骗、政治敏感或侵犯他人合法权益的内容。\n\n第五条  用户不得利用游戏漏洞（BUG）获取不正当利益。发现漏洞时，应第一时间通过官方渠道反馈，不得公开传播或恶意利用。\n\n第六条  游戏内的金币、道具、皮肤、等级等虚拟数据仅在本游戏内有效，不具备现实货币价值，不支持兑换、提现、转让或继承。\n\n第七条  为保障服务质量，游戏可能进行版本更新、停机维护或内容调整，相关公告将在启动页或游戏内以弹窗形式提前告知。\n\n第八条  请妥善保管您的设备与账号信息。因设备外借、密码泄露、主动共享等用户自身原因造成的损失，由用户自行承担。\n\n第九条  对违反本协议的行为，运营方有权视情节轻重采取警告、限制功能、清除数据、封禁账号等措施，并保留追究法律责任的权利。\n\n第十条  游戏仅会收集必要的设备信息（机型、系统版本、崩溃日志）用于适配与问题修复，不会收集与游戏无关的个人隐私信息。\n\n第十一条  本协议的解释权归《坦克大战》开发团队所有。协议内容更新后，将在您下次启动游戏时重新征得您的同意。\n\n第十二条  如您在游戏过程中遇到任何问题，可通过【设置 - 帮助与反馈】与我们联系，我们将在 3 个工作日内予以回复。\n\n第十三条  本协议自您点击“同意并开始”之时生效，直至您卸载本游戏或运营方终止服务为止。</string>
+
+    <string name="terms_check_agree">我已阅读并同意《坦克大战用户服务协议》</string>
+    <string name="terms_check_age">我已了解并遵守上述条款，且已年满 12 周岁</string>
+    <string name="terms_hint_wait">请勾选以上两项条款后继续</string>
+    <string name="terms_hint_ready">条款已确认，可以进入战场</string>
+    <string name="terms_reject">拒绝并退出</string>
+    <string name="terms_agree">同意并开始</string>
+
+    <!-- ============ 游戏主界面（假的游戏界面） ============ -->
+    <string name="game_level_label">关卡</string>
+    <string name="game_level_value">01-1</string>
+    <string name="game_score_label">得分</string>
+    <string name="game_score_value">0000</string>
+    <string name="game_mission_tag">MISSION BRIEFING</string>
+    <string name="game_status">准备中</string>
+    <string name="game_map_name">钢铁前线</string>
+    <string name="game_map_desc">第 01 关 · 摧毁全部敌方坦克并守住基地</string>
+    <string name="game_difficulty_tip">难度将影响敌方数量与刷新速度</string>
+    <string name="game_difficulty_easy">简单</string>
+    <string name="game_difficulty_normal">普通</string>
+    <string name="game_difficulty_hard">困难</string>
+    <string name="game_enemy_label">敌军</string>
+    <string name="game_enemy_value">12 辆</string>
+    <string name="game_time_label">限时</string>
+    <string name="game_time_value">03:00</string>
+    <string name="game_reward_label">奖励</string>
+    <string name="game_reward_value">★★★</string>
+    <string name="game_battle_start">开始战斗</string>
+</resources>

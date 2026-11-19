@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============ 基础色 ============ -->
+    <color name="bg">#080D16</color>
+    <color name="bg_deep">#05080F</color>
+    <color name="surface">#101A2B</color>
+    <color name="surface_2">#16223A</color>
+    <color name="outline">#26374F</color>
+    <color name="outline_soft">#1B2A40</color>
+
+    <!-- ============ 品牌色（军事橙 + 科技青） ============ -->
+    <color name="amber">#FFB020</color>
+    <color name="amber_light">#FFD37A</color>
+    <color name="amber_deep">#EF8A00</color>
+    <color name="amber_soft">#33FFB020</color>
+    <color name="amber_stroke">#80FFB020</color>
+    <color name="cyan">#38E1FF</color>
+    <color name="ink">#0B1220</color>
+
+    <!-- ============ 文字 ============ -->
+    <color name="text_primary">#F1F5FF</color>
+    <color name="text_secondary">#93A3BE</color>
+    <color name="text_tertiary">#5E6E88</color>
+
+    <!-- ============ 功能色 ============ -->
+    <color name="danger">#FF5C5C</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

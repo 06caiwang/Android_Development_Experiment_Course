@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 战场预览卡片内层背景 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:endColor="#080E18"
+                android:startColor="#111C2E"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:centerX="0.5"
+                android:centerY="0.92"
+                android:endColor="#0038E1FF"
+                android:gradientRadius="300dp"
+                android:startColor="#3338E1FF"
+                android:type="radial" />
+        </shape>
+    </item>
+</layer-list>

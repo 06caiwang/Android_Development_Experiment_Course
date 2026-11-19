@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- 品牌主色：紫罗兰 --> 
+    <color name="primary">#5B4BF5</color>
+    <color name="primary_dark">#4A3AFF</color>
+    <color name="primary_light">#7C5CFF</color>
+    <color name="primary_soft">#EAE6FF</color>
+
+    <!-- 文字 -->
+    <color name="text_title">#141428</color>
+    <color name="text_body">#7A7D93</color>
+    <color name="text_muted">#A0A4B8</color>
+    <color name="field_hint">#C6C9DA</color>
+
+    <!-- 背景 -->
+    <color name="bg_top">#F7F8FE</color>
+    <color name="bg_bottom">#E9E7FF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="field_bg">#F4F6FC</color>
+    <color name="divider">#EEF0F7</color>
+    <color name="stroke_soft">#E3E5F2</color>
+</resources>

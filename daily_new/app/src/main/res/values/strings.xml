@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">每日头条</string>
+    <string name="brand_name">每日头条</string>
+    <string name="brand_slogan">每天三分钟，知晓天下事</string>
+    <string name="search_hint">搜索你想搜的</string>
+
+    <string name="login_account_label">账号</string>
+    <string name="login_password_label">密码</string>
+    <string name="login_account_hint">请输入账号</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login_button">登 录</string>
+    <string name="login_tip">演示账号：zyh　密码：123456</string>
+    <string name="login_empty">账号和密码不能为空</string>
+    <string name="login_error">账号或密码错误，请重新输入</string>
+    <string name="login_success">登录成功，正在进入每日头条</string>
+
+    <string name="detail_title">详情</string>
+    <string name="detail_back">返回</string>
+    <string name="detail_footer">本文内容为界面演示所用的示例文本，仅用于课程作业展示，不作为真实新闻依据。</string>
+</resources>

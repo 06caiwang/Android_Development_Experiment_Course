@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 本应用固定使用深色沉浸风格，夜间模式与日间保持一致 -->
+    <style name="Theme.Loginandregister" parent="Base.Theme.Loginandregister" />
+</resources>

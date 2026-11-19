@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_page"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- ================= 显示区：吃掉剩余高度，内容贴右下 ================= -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|end"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="24dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="10dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_expression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/cd_expression"
+            android:ellipsize="start"
+            android:fontFamily="sans-serif-light"
+            android:gravity="end"
+            android:maxLines="1"
+            android:textColor="@color/text_secondary"
+            android:textSize="22sp"
+            tools:text="1+2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:baselineAligned="false"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="sans-serif-light"
+                android:text="="
+                android:textColor="@color/text_secondary"
+                android:textSize="26sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/cd_result"
+                android:fontFamily="sans-serif-light"
+                android:gravity="end"
+                android:letterSpacing="-0.02"
+                android:maxLines="1"
+                android:textColor="@color/text_primary"
+                android:textSize="56sp"
+                app:autoSizeMaxTextSize="56sp"
+                app:autoSizeMinTextSize="22sp"
+                app:autoSizeStepGranularity="2sp"
+                app:autoSizeTextType="uniform"
+                tools:text="3" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- ================= 键盘区：TableLayout 5 行 × 4 列 ================= -->
+    <TableLayout
+        android:id="@+id/keypad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:paddingBottom="8dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <!-- 第 1 行：C  退格  %  ÷ -->
+        <TableRow>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_c"
+                style="@style/CalcKey.Operator"
+                android:tag="C"
+                android:text="C" />
+
+            <ImageButton
+                android:id="@+id/key_del"
+                style="@style/CalcKeyIcon"
+                android:contentDescription="@string/cd_backspace"
+                android:src="@drawable/ic_backspace"
+                android:tag="DEL" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_percent"
+                style="@style/CalcKey.Operator"
+                android:tag="%"
+                android:text="%" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_div"
+                style="@style/CalcKey.Operator"
+                android:tag="/"
+                android:text="÷" />
+        </TableRow>
+
+        <!-- 第 2 行：7 8 9 × -->
+        <TableRow>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_7"
+                style="@style/CalcKey"
+                android:tag="7"
+                android:text="7" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_8"
+                style="@style/CalcKey"
+                android:tag="8"
+                android:text="8" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_9"
+                style="@style/CalcKey"
+                android:tag="9"
+                android:text="9" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_mul"
+                style="@style/CalcKey.Operator"
+                android:tag="*"
+                android:text="×" />
+        </TableRow>
+
+        <!-- 第 3 行：4 5 6 − -->
+        <TableRow>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_4"
+                style="@style/CalcKey"
+                android:tag="4"
+                android:text="4" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_5"
+                style="@style/CalcKey"
+                android:tag="5"
+                android:text="5" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_6"
+                style="@style/CalcKey"
+                android:tag="6"
+                android:text="6" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_sub"
+                style="@style/CalcKey.Operator"
+                android:tag="-"
+                android:text="−" />
+        </TableRow>
+
+        <!-- 第 4 行：1 2 3 + -->
+        <TableRow>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_1"
+                style="@style/CalcKey"
+                android:tag="1"
+                android:text="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_2"
+                style="@style/CalcKey"
+                android:tag="2"
+                android:text="2" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_3"
+                style="@style/CalcKey"
+                android:tag="3"
+                android:text="3" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_add"
+                style="@style/CalcKey.Operator"
+                android:tag="+"
+                android:text="+" />
+        </TableRow>
+
+        <!-- 第 5 行：00 0 . ＝ -->
+        <TableRow>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_00"
+                style="@style/CalcKey"
+                android:tag="00"
+                android:text="00" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_0"
+                style="@style/CalcKey"
+                android:tag="0"
+                android:text="0" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_dot"
+                style="@style/CalcKey"
+                android:tag="."
+                android:text="." />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key_eq"
+                style="@style/CalcKey.Accent"
+                android:tag="="
+                android:text="=" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
